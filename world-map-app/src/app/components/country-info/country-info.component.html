@@ -1,0 +1,10 @@
+
+<div id="infoCard" *ngIf="selectedCountry">
+    <h2>{{ selectedCountry[1][0].name }}</h2>
+    <p><strong>Capital:</strong> {{ selectedCountry[1][0].capitalCity }}</p>
+    <p><strong>Region:</strong> {{ selectedCountry[1][0].region.value}}</p>
+    <p><strong>Income Level:</strong> {{ selectedCountry[1][0].incomeLevel.value }}</p>
+    <p><strong>Latitude:</strong> {{ selectedCountry[1][0].latitude }}</p>
+    <p><strong>longitude:</strong> {{ selectedCountry[1][0].longitude }}</p>
+  </div>
+

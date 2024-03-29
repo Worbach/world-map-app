@@ -1,0 +1,13 @@
+
+:host {
+    width: 50%; 
+  }
+  
+.country-highlight {
+  fill: #a47d3f 
+}
+
+.country-default {
+  fill: black;
+}
+

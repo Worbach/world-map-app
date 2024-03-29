@@ -1,0 +1,15 @@
+<nav id="navMenu">
+  <ul>
+    <li><a class="menuItem" href="/home">Home</a></li>
+    <li><a class="menuItem" href="/worldMap">World Map</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="column">
+    <app-map (countryClicked)="selectedCountry = $event"></app-map>
+  </div>
+  <div class="column">
+    <app-country-info [selectedCountry]="selectedCountry"></app-country-info>
+  </div>
+</div>
