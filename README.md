@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an interactive world map web application developed as part of the D280 JavaScript Programming course. The application uses an SVG map of the world converted into an Angular component to provide an engaging visual interface. By integrating data from external APIs (GeoNames and Worldbank), the app dynamically displays detailed country information—such as country name, capital, region, income level, and additional properties—when a user interacts with the map.
+This project is an interactive world map web application developed as part of my JavaScript Programming course. The application uses an SVG map of the world converted into an Angular component to provide an engaging visual interface. By integrating data from external APIs (GeoNames and Worldbank), the app dynamically displays detailed country information—such as country name, capital, region, income level, and additional properties—when a user interacts with the map.
 
 ## Key Features
 
